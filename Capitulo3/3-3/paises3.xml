@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pais>
+    <nome> Brasil </nome>
+    <idioma> Português </idioma>
+    <capital> Brasília </capital>
+    <moeda>Novo Real</moeda>
+    <prefixo> +55 </prefixo>
+    <geografia>
+        <clima>temperado</clima>
+        <costa> 7367km </costa>
+        <pico> Neblina(3014 m)</pico>
+    </geografia>
+    <estado>
+        <nome>Rio Grande do Sul</nome>
+        <nome>Sao paulo</nome>
+        <nome>Minas Gerais</nome>
+    </estado>
+</pais>
