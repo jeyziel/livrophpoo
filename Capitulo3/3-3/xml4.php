@@ -10,7 +10,5 @@ echo "<br>\n";
 echo "***Informacoes geograficas<br>\n";
 echo 'Clima :' . $xml->geografia->clima;
 
-
-
-
-
+echo "<br>\n";
+echo "Informacoes Geograficas\n";

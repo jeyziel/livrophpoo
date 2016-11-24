@@ -83,6 +83,15 @@
             <td><?php echo $tarefa["concluida"]; ?></td>
         </tr>
     <?php endforeach; ?>
+    <?php
+
+    $valores = array('530077.99','31459.89', '2899.39', '600.51', '13', '9', '0.25');
+    $formatter = new NumberFormatter('pt_BR',  NumberFormatter::CURRENCY);
+    foreach($valores as $item){
+        echo  $formatter->formatCurrency($item, 'BRL') . '<br>';
+    }
+
+    ?>
 </table>
 </body>
 </html>

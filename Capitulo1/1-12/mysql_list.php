@@ -17,6 +17,7 @@ echo date('H:i:s'). '<br>';
 
 
 
+
 if($Result){
   while  ($row = mysqli_fetch_assoc($Result)):
   
