@@ -18,7 +18,7 @@ try
 	$venda->addItem(10,$p1);
 	$venda->addItem(20,$p2);
 
-	$conn = new PDO('sqlite:database/estoque.db');
+	$conn = new PDO('sqlite:database/livro.db');
 	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	VendaMapper::setConnection($conn);
 

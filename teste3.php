@@ -1,7 +1,11 @@
 <?php 
 
-$a = 1;
+class Teste
+{
+	private function __construct(){
 
-$b = isset($a)?? 'eae';
+	}
+}
 
-echo $b;
+
+$a = new Teste;

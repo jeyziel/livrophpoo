@@ -23,7 +23,7 @@ $data2->origem        = 'I';
 
 try 
 {
-    $conn = new PDO('sqlite:database/estoque.db');
+    $conn = new PDO('sqlite:database/livro.db');
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     ProdutoGateway::setConnection($conn);
     

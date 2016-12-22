@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter home="php.exe" id="6a32b032-8a38-4ba8-91cc-d42ca08e9d8c" name="Interpreter for Composer" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/Capitulo2/2-15/Adapter/PHPMailer/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

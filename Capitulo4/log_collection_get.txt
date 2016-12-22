@@ -1,0 +1,6 @@
+2016-12-16 20:05:40 :: SELECT * FROM produto WHERE (estoque >= 10 AND origem = 'N')
+2016-12-16 20:05:40 :: SELECT * FROM produto WHERE id=7
+2016-12-16 20:05:40 :: UPDATE produto SET descricao = 'Vinho Brasileiro tinto merlote', estoque = '11.0', preco_custo = '12.0', preco_venda = 62.748517, codigo_barras = '13523453234234', data_cadastro = '2016-12-16', origem = 'N' WHERE id=7
+2016-12-16 20:05:40 :: SELECT * FROM produto WHERE id=8
+2016-12-16 20:05:40 :: UPDATE produto SET descricao = 'Vinho Brasileiro tinto merlote', estoque = '11.0', preco_custo = '12.0', preco_venda = 62.748517, codigo_barras = '13523453234234', data_cadastro = '2016-12-16', origem = 'N' WHERE id=8
+2016-12-16 20:05:40 :: SELECT count(*) FROM produto WHERE (estoque >= 10 AND origem = 'N')

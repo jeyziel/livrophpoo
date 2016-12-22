@@ -1,0 +1,4 @@
+2016-12-01 00:42:15 :: inserido com sucesso
+2016-12-01 00:42:15 :: SELECT * FROM produto WHERE id=1
+2016-12-01 00:42:15 :: SELECT * FROM produto WHERE id=1
+2016-12-01 00:42:15 :: UPDATE produto SET descricao = 'O reilly', estoque = '10', preco_custo = '1200', preco_venda = '13', codigo_barras = '13523453234234', data_cadastro = '2016-12-01', origem = 'N' WHERE id=1

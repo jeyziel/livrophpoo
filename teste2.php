@@ -31,7 +31,7 @@ class Pessoa
 	}
 }
 
-use Estudos\Pessoa;
+
 $pessoa = new Pessoa;
 $pessoa->nome = 'Maria';
 $pessoa->idade = '18'; 
