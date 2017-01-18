@@ -29,7 +29,6 @@ class Criteria extends Expression
         //agrega o resultado de expressao a lista
         $this->expressions[] = $expression;
         $this->operators[] = $operator;
-        //var_dump($this->expressions);
 
     }
 
@@ -38,6 +37,7 @@ class Criteria extends Expression
     {
         if(is_array($this->expressions))
         {
+            echo '<br>';
             if(count($this->expressions) > 0)
             {
                $result = '';
