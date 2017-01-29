@@ -1,10 +1,11 @@
 <?php 
 
+use Livro\Control\Action;
 use Livro\Control\Page;
 use Livro\Widgets\Datagrid\Datagrid;
-use Livro\Control\Action;
 use Livro\Widgets\Datagrid\DatagridAction;
 use Livro\Widgets\Datagrid\DatagridColumn;
+use Livro\Widgets\Datagrid\addItem;
 use Livro\Widgets\Wrapper\DatagridWrapper;
 
 
@@ -36,8 +37,7 @@ class ContatoListWrapper extends Page
         $action2->setLabel('Deletar');
         $action2->setImage('ico_delete.png');
         $action2->setField('id');
-
-
+        
 		//cria o modelo da Datagrid, montando sua estrutura
 		$this->datagrid->createModel();
 

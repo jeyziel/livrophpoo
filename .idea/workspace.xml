@@ -6,14 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a83234af-c0f8-48da-8dfb-bd5b1e285a46" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capitulo4/classes/api/Criteria.php" afterPath="$PROJECT_DIR$/Capitulo4/classes/api/Criteria.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capitulo5/App/Database/livro.db" afterPath="$PROJECT_DIR$/Capitulo5/App/Database/livro.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capitulo5/Lib/Livro/Control/Page.php" afterPath="$PROJECT_DIR$/Capitulo5/Lib/Livro/Control/Page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capitulo5/Lib/Livro/Database/Record.php" afterPath="$PROJECT_DIR$/Capitulo5/Lib/Livro/Database/Record.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capitulo5/Lib/Livro/Database/Repository.php" afterPath="$PROJECT_DIR$/Capitulo5/Lib/Livro/Database/Repository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capitulo5/index.php" afterPath="$PROJECT_DIR$/Capitulo5/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capitulo5/index2.php" afterPath="$PROJECT_DIR$/Capitulo5/index2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capitulo5/App/Control/ContatoListWrapper.php" afterPath="$PROJECT_DIR$/Capitulo5/App/Control/ContatoListWrapper.php" />
     </list>
     <ignored path="livrophpoo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +46,6 @@
               <caret line="106" column="12" lean-forward="false" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
               <folding>
                 <element signature="e#6#29#0#PHP" expanded="true" />
-                <marker date="1484713742005" expanded="true" signature="5333:5337" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -233,8 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -481,6 +471,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -668,11 +660,13 @@
       <workItem from="1484676102788" duration="1254000" />
       <workItem from="1484695931089" duration="3383000" />
       <workItem from="1484713758381" duration="6000" />
+      <workItem from="1484876200534" duration="402000" />
+      <workItem from="1484883214643" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="551478000" />
+    <option name="totallyTimeSpent" value="551885000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,7 +681,7 @@
     <frame x="-8" y="-8" width="1296" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33737865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3487055" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1119,7 +1113,6 @@
           <caret line="106" column="12" lean-forward="false" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
           <folding>
             <element signature="e#6#29#0#PHP" expanded="true" />
-            <marker date="1484713742005" expanded="true" signature="5333:5337" ph="{...}" />
           </folding>
         </state>
       </provider>
